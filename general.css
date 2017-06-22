@@ -1,0 +1,221 @@
+	
+	
+	/*?????*/
+	#temp
+	{
+		margin:20px auto;
+		text-align: center;
+	}
+	
+	#temp span
+	{
+		margin:0 10px;
+		color:#232C47;
+	}
+	
+	#temp span:hover
+	{
+		color:#7D9EC5;
+		cursor: pointer;
+	}
+	
+	
+	
+	
+	/*Avisos */
+	.categAvis
+	{
+		width: 250px;
+		border-bottom: 1px solid rgb(183, 196, 220);	
+	}
+	
+	.categAvis:hover
+	{
+		cursor: pointer;		
+		opacity: 0.8;
+	}
+	
+	#cons_av
+	{
+		//width: 700px;
+		text-align: center;	
+		//margin: 10px auto 20px auto;
+		font-family: Arial;
+	}
+	#options img
+	{
+		width: 190px;
+		border-radius: 13px;
+	}
+	
+	
+	#avisos_cont
+	{
+		background-color: 'black';
+		border: 2px solid #17328A;
+		width: 715px;
+		margin: 0 auto;
+		height: 649px;
+		overflow: auto;
+		font-family: Arial;
+		border-radius: 20px;
+	}
+	
+	.aviso_item
+	{
+		border-bottom: 1px dotted #333;
+		padding:10px 5px;	
+		width: 100%;
+		margin: 0 auto;
+		font-size: 12pt;
+	}
+	
+	.aviso_item:hover
+	{
+		background-color: rgb(183, 196, 220);
+		cursor: pointer;
+	}
+	
+	/*Eventos*/
+	#cons_ev
+	{
+		font-family: Arial;
+		background-color:#e4e4e4;
+	}
+	
+	#calen
+	{
+		width: 100%;
+		margin:0 auto;	
+	}
+	
+	#calen td
+	{
+		box-sizing:border-box;
+		width: 20%;	
+		background-color: #F9F9F9;
+		padding: 7px;
+	}
+	
+	#calen td > div
+	{
+		height: 135px;
+		overflow: auto;	
+	}
+	
+	#calen #title
+	{
+		background: #004D99;
+		color: #FFF;	
+		padding: 15px;	
+	}
+		
+	#calen #title p
+	{
+		font-size: 12pt;
+		text-align: justify;		
+	}
+	
+	#calen #title #title_p
+	{
+		font-weight: bold;
+		font-size: 20pt;	
+		text-align: center;		
+	}
+	
+	#calen p.dia
+	{
+		margin:0;
+		text-align: right;
+		font-weight: bold;
+		color: #A9A9A9;				
+	}
+	
+	#calen td#today
+	{
+		background: #219E75;	
+	}
+	
+	#calen td.active
+	{
+		background: #F8B502;
+		color: #FFF;	
+	}
+	
+	#calen td.active p.dia
+	{
+		color:#FFF;	
+	}
+		
+	#calen td > div p
+	{
+		margin: 0;
+		margin-bottom: 5px;
+		font-size: 11pt;	
+		text-align:left;
+	}
+	
+	#calen td > div p.nE
+	{
+		font-weight: bold;	
+		font-size: 13pt;
+		text-indent: 5px;
+	}
+	
+	#calen td > div p.hE
+	{
+		font-style: italic;
+	}	
+	
+	#calen td > div div.iE
+	{
+		margin-bottom: 11px;	
+		text-align:left !important; 
+	}
+	
+	#contAu
+	{
+		font-family: Arial;
+		padding-top:20px;
+		color: #036; 		
+	}
+	
+	/*Citas*/
+	#link_citas
+	{
+		list-style: none;
+		line-height: 25px;		
+	}
+	
+	#link_citas a
+	{
+		color:#232C47;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: none;						
+	}
+			
+	#link_citas a:hover
+	{
+		color:#435381;
+		text-decoration: underline;	
+	}
+				
+	#link_citas a:visited
+	{
+		color:#232C47;	
+	}
+	
+	
+	#cont_hr
+	{
+		font-family: Arial;
+		color: #036;
+		margin: 20px auto;
+		width: 740px;	
+	}
+	
+	#rell
+	{
+		margin-top: 20px;	
+	}
